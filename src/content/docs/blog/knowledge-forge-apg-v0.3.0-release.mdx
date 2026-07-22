@@ -1,0 +1,167 @@
+---
+title: "Introducing Agentic Praxis Grimoire v0.3.0"
+description: "Knowledge Forge introduces a modular, evidence-driven operating model for coding agents, now with nineteen public skills."
+date: 2026-07-22
+excerpt: "Agentic Praxis Grimoire v0.3.0 brings together a stable engineering-process core, capability routing, repository-guidance synthesis, technology profiles, and reproducible delivery—all with explicit authority and maturity boundaries."
+tags:
+  - release
+  - agentic-engineering
+  - coding-agents
+  - open-source
+featured: true
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+Today, Knowledge Forge is introducing **Agentic Praxis Grimoire (APG) v0.3.0**, a modular engineering operating model for coding agents.
+
+APG is built around a simple idea: an agent should be able to reach for a focused engineering practice without turning that practice into a compulsory, one-size-fits-all workflow. Planning, implementation, testing, debugging, review, delegation, and technology-specific judgment each have value—but only when their trigger, authority, evidence, and stopping conditions are clear.
+
+Version 0.3.0 is the first APG release to bring the project’s stable process core, workflow routing, guidance synthesis, language and database profiles, and reproducible distribution model together in one public release.
+
+<CardGrid>
+  <Card title="19 public skills">
+    Six foundational process skills and thirteen new workflow, synthesis, language, test, assignment, and database capabilities.
+  </Card>
+
+  <Card title="14 stable">
+    Skills judged suitable for routine bounded use within their documented triggers and project-owned constraints.
+  </Card>
+
+  <Card title="5 provisional">
+    Useful, release-included capabilities whose evidence does not yet justify a stable maturity claim.
+  </Card>
+
+  <Card title="18 routed capabilities">
+    A checked capability map helps select the smallest sufficient non-router skill—or no skill at all.
+  </Card>
+</CardGrid>
+
+## Why APG exists
+
+Coding agents are often given one of two unsatisfying choices.
+
+At one extreme, they receive vague instructions and improvise their way through consequential engineering work. At the other, they are wrapped in a universal ritual that tries to force every task through the same sequence, regardless of scope, risk, or repository policy.
+
+APG takes a different approach. It treats engineering practices as **modular capabilities with explicit boundaries**.
+
+A skill does not grant authority. It does not invent the project’s architecture, privacy rules, test commands, branch policy, release process, or destructive-action permissions. It consumes those project-owned constraints and contributes one focused procedure after its trigger has been satisfied.
+
+That distinction matters. Better agentic engineering is not just a question of giving an agent more instructions. It is a question of giving it the right procedure, at the right time, under the right authority, with evidence strong enough to support the resulting claim.
+
+## A stable engineering-process core
+
+APG v0.3.0 retains the six process skills promoted to stable in v0.2.0:
+
+- `composing-bounded-worker-assignments`
+- `designing-significant-changes`
+- `planning-repository-work`
+- `implementing-with-test-discipline`
+- `debugging-systematically`
+- `reviewing-and-verifying-repository-work`
+
+Together, these skills cover a large portion of repository engineering without pretending that every task needs every process. A small documentation correction may need none of them. A consequential architectural change may need design and planning before implementation. A failing test may call for systematic debugging rather than another speculative patch.
+
+The aim is not mandatory chaining. The aim is **smallest-sufficient process**.
+
+## Routing without a universal workflow
+
+The new stable `agentic-praxis-grimoire-workflow` skill helps when several APG capabilities appear plausible, when a routing decision needs to be audited, or when the capability map may have become stale.
+
+The router can select one smallest sufficient process skill—or no skill. It explicitly rejects the idea that every session must begin with a bootstrap ritual or that every task must traverse a fixed skill chain. It also does not override a valid explicit selection or grant authority to act.
+
+This gives APG a discoverable top-level entry point without collapsing its modular architecture into another monolithic methodology.
+
+## Synthesizing repository guidance before rewriting it
+
+Repositories accumulate instructions from many sources: root guidance, directory-specific rules, private operational notes, tool conventions, copied practices, historical decisions, and target-specific procedures.
+
+The stable `synthesizing-repository-guidance` skill helps classify that material before anyone rewrites it. It separates questions of ownership, provenance, reuse rights, privacy, migration, rollback, and destination.
+
+The skill deliberately stops short of authoring the replacement artifact or forcing a migration. Synthesis produces a reviewable disposition; the repository and authorized task still own the resulting change.
+
+## Technology-specific profiles
+
+APG v0.3.0 adds profiles for situations where repository policy alone is not enough and technology-specific judgment becomes material.
+
+Stable profiles cover:
+
+- Python
+- Bash
+- Bats
+- Zsh
+- Nix
+- an exact verified ZUnit v0.8.2 and Zsh 5.9.2 pairing
+
+Provisional profiles cover:
+
+- Go
+- Ruby
+- PostgreSQL
+- SQLite
+
+These profiles do not replace process skills. A Python debugging task may use both the Python profile and the systematic-debugging process, each owning a different part of the reasoning. Profiles also preserve technology boundaries: PostgreSQL and SQLite remain separate owners rather than being flattened into a generic SQL checklist.
+
+## Honest maturity is part of the product
+
+All thirteen new v0.3 capabilities are included in the release, but only eight were promoted to stable. Five remain provisional.
+
+That split is intentional. **Release inclusion and maturity are independent decisions.** Publishing a capability makes it available for inspection and bounded use; it does not erase limitations in its evidence.
+
+In APG, stable does not mean universally correct, automatically invoked, production-warranted, or comparatively superior. It means the skill has enough recorded evidence to support routine bounded use inside its trigger and authority boundaries. Provisional means the capability is useful and retained, but the evidence still calls for caution and further observation.
+
+## Distribution is engineered, not improvised
+
+APG is more than a directory of Markdown instructions. The project includes deterministic tooling and regression coverage for:
+
+- validating the canonical skill library and checked-in discovery projection;
+- building exact public release candidates from the non-private source surface;
+- checking append-only, single-parent public release lineage;
+- managing user-scoped skill links with install, adopt, check, update, rollback, and uninstall operations;
+- managing project-local skill projections without changing tracked target files; and
+- validating semantic phase and durable-record identity.
+
+Public v0.3.0 preserves the v0.1.0 and v0.2.0 history, publishes one intentionally squashed release commit, and supports source-specific skill sets. A v0.2.0 source still declares its historical six skills; a v0.3.0 source declares nineteen. Update and rollback validate those sets independently instead of rewriting history around the newest catalog.
+
+## What APG does not claim
+
+APG v0.3.0 is not an autonomous project manager, a source of unrestricted implementation authority, or a guarantee of correct output.
+
+It does not:
+
+- replace human project, roadmap, publication, licensing, or destructive-action authority;
+- infer private policy that has not been supplied;
+- guarantee that a client will select a skill automatically;
+- prove production fitness from structural validation alone;
+- require every task to use a skill; or
+- turn a maturity label into a warranty.
+
+Those limits are not disclaimers attached after the design. They are part of the design.
+
+## Open source and commercial use
+
+Agentic Praxis Grimoire is available under **GNU AGPL v3.0 or later**. Commercial licensing is also available for proprietary embedding, private service deployments, OEM use, support, warranty, indemnity, and custom commercial terms.
+
+The public project includes its governance, provenance model, architectural decisions, evaluation records, tests, distribution tooling, and all nineteen release-included skills.
+
+<CardGrid>
+  <LinkCard
+    title="Explore Agentic Praxis Grimoire"
+    href="https://github.com/lair001/agentic-praxis-grimoire"
+    description="Read the project overview, skill catalog, governance model, and public source."
+  />
+
+  <LinkCard
+    title="Browse the v0.3.0 skill catalog"
+    href="https://github.com/lair001/agentic-praxis-grimoire/blob/v0.3.0/skills/README.md"
+    description="Review all nineteen capabilities, their trigger boundaries, and current maturity."
+  />
+
+  <LinkCard
+    title="Inspect the v0.3.0 changes"
+    href="https://github.com/lair001/agentic-praxis-grimoire/compare/v0.2.0...v0.3.0"
+    description="See the workflow, profile, validation, lifecycle, and documentation additions."
+  />
+</CardGrid>
+
+APG is an early contribution to a larger discipline: engineering agent behavior with the same care we apply to architecture, testing, delivery, and operational ownership. Knowledge Forge will continue to explore that discipline in public—favoring modular capability, explicit authority, reproducible evidence, and truthful limits over impressive but ungrounded claims.
