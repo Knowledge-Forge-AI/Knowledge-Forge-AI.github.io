@@ -9,6 +9,9 @@ export default defineConfig({
     site: 'https://www.knowledge-forge.ai',
     integrations: [starlight({
         title: 'Knowledge Forge AI',
+        disable404Route: true,
+        customCss: ['./src/styles/legacy.css'],
+        components: { Footer: './src/components/LegacyFooter.astro' },
         social: [
             { icon: 'pen', label: 'Sam Lair', href: 'https://sam-lair.knowledge-forge.ai'},
             { icon: 'github', label: 'GitHub', href: 'https://github.com/Knowledge-Forge-AI' }

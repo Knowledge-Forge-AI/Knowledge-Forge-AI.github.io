@@ -1,0 +1,19 @@
+Knowledge Forge AI Website (Knowledge-Forge-AI.github.io)
+Steward: Samuel Leighton Lair
+Copyright (c) 2026 Samuel Leighton Lair and Knowledge Forge AI Website contributors.
+
+Original website software and editorial text are offered under the GNU Affero
+General Public License v3.0 or later (AGPL-3.0-or-later). See LICENSE.
+Commercial licenses are available for proprietary terms; see COMMERCIAL-LICENSE.md.
+Contact: sam.lair@knowledge-forge.ai.
+
+Third-party code, dependencies, documentation and other upstream material retain
+their own licenses, copyright, attribution and notice terms. This notice does
+not revoke earlier public grants or relicense third-party material. Dependencies
+are identified in package-lock.json and retain their upstream notices.
+
+The Rei Ai illustration (public/rei-ai.webp) and organizational brand assets
+are excluded from the AGPL grant. No separate artwork license is granted here;
+applicable rights are reserved. See BRAND-ASSETS.md for permissions and provenance.
+No trademark right or organizational endorsement is granted by this software
+license. Other Knowledge Forge AI repositories have their own terms.

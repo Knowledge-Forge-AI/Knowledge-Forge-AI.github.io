@@ -1,0 +1,11 @@
+---
+import { formatDate } from '../lib/journal';
+const { entries, level = 2 } = Astro.props;
+const Heading = level === 3 ? 'h3' : 'h2';
+---
+<ol class="entry-list">
+  {entries.map(entry => <li class="entry-row" data-project={entry.category}>
+    <time datetime={entry.date}>{formatDate(entry.date)}</time>
+    <div><Heading><a href={entry.href}>{entry.title}</a></Heading><p>{entry.description}</p><div class="entry-project">{entry.category}{entry.kind === 'milestone' ? ' · Project milestone' : ''}</div></div>
+  </li>)}
+</ol>

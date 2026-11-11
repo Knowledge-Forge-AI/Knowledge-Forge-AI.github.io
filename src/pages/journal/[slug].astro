@@ -1,0 +1,11 @@
+---
+import { getCollection, render } from 'astro:content';
+import Site from '../../layouts/Site.astro';
+import { formatDate } from '../../lib/journal';
+export async function getStaticPaths() { return (await getCollection('journal')).map(post => ({ params: { slug: post.id }, props: { post } })); }
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+<Site title={post.data.title} description={post.data.description} active="journal" article={post.data}>
+  <article class="article shell"><a href="/journal/">Back to the journal</a><h1>{post.data.title}</h1><div class="article-meta"><time datetime={post.data.date}>{formatDate(post.data.date)}</time><span>{post.data.category}</span><span>Knowledge Forge AI</span>{post.data.kind === 'milestone' && <span>Project milestone</span>}</div><p class="lede">{post.data.description}</p><div class="prose"><Content /></div><section class="sources" aria-labelledby="sources-title"><h2 id="sources-title">Sources and release records</h2><ul>{post.data.sources.map(source => <li><a href={source.url}>{source.label}</a></li>)}</ul></section></article>
+</Site>

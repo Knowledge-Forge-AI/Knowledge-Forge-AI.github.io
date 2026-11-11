@@ -1,0 +1,23 @@
+---
+import Site from '../../layouts/Site.astro';
+import JournalList from '../../components/JournalList.astro';
+import { journalEntries } from '../../lib/journal';
+const entries = await journalEntries();
+---
+<Site title="Notes from the forge" active="journal" description="Release stories and project milestones from Knowledge Forge AI: APGR, Common Lore Index, Theme Forge and DINAS.">
+  <header class="journal-head shell"><h1>Notes from the forge.</h1><p class="lede">Release stories, project origins, and the work between.</p></header>
+  <div class="journal-layout shell">
+    <div><div class="filter"><label for="project-filter">Project</label><select id="project-filter"><option value="all">All projects</option><option>APGR</option><option>Common Lore Index</option><option>Theme Forge</option><option>DINAS</option></select><span class="filter-status" id="filter-status" role="status" aria-live="polite">{entries.length} stories</span></div><JournalList entries={entries} /></div>
+    <aside class="journal-aside"><h2>From release notes to context</h2><p>Each story connects a public release or project milestone to the idea behind it.</p><p>Posts are dated to the event they describe. Release records are linked, and the limits of an early preview stay part of its story.</p><p>For current installation and compatibility, follow the project’s own documentation.</p></aside>
+  </div>
+  <script>
+    const select = document.querySelector<HTMLSelectElement>('#project-filter');
+    const status = document.querySelector('#filter-status');
+    const rows = [...document.querySelectorAll<HTMLElement>('.entry-row[data-project]')];
+    select?.addEventListener('change', () => {
+      let count = 0;
+      for (const row of rows) { row.hidden = select.value !== 'all' && row.dataset.project !== select.value; if (!row.hidden) count++; }
+      if (status) status.textContent = `${count} ${count === 1 ? 'story' : 'stories'}`;
+    });
+  </script>
+</Site>

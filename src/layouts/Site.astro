@@ -1,0 +1,70 @@
+---
+import '../styles/site.css';
+const { title = 'Knowledge Forge AI', description = 'Open tools for understanding code, shaping systems, and making thoughtful things.', active = '', article, noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#d7e3cc" />
+    {!noindex && <link rel="canonical" href={canonical} />}
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Knowledge Forge AI journal" href="/journal/rss.xml" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={article ? 'article' : 'website'} />
+    {!noindex && <meta property="og:url" content={canonical} />}
+    {article && <meta property="article:published_time" content={article.date} />}
+    {article && <meta property="article:modified_time" content={article.updated} />}
+    {article && <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'BlogPosting', headline: article.title, description, datePublished: article.date, dateModified: article.updated, mainEntityOfPage: canonical.toString(), author: { '@type': 'Organization', name: 'Knowledge Forge AI', url: 'https://www.knowledge-forge.ai/' } }).replace(/</g, '\\u003c')} />}
+    <title>{title === 'Knowledge Forge AI' ? title : `${title} · Knowledge Forge AI`}</title>
+    <script is:inline>
+      (() => {
+        let mode;
+        try { mode = localStorage.getItem('starlight-theme'); } catch {}
+        document.documentElement.dataset.theme = mode === 'light' || mode === 'dark' ? mode : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', document.documentElement.dataset.theme === 'dark' ? '#142b29' : '#d7e3cc');
+      })();
+    </script>
+  </head>
+  <body class="kf-site">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header shell">
+      <a class="wordmark" href="/">Knowledge Forge AI</a>
+      <nav aria-label="Main navigation">
+        <a href="/#projects">Projects</a>
+        <a href="/journal/" aria-current={active === 'journal' ? 'page' : undefined}>Journal</a>
+        <a href="/#about">About</a>
+        <a class="github-link" href="https://github.com/Knowledge-Forge-AI">GitHub</a>
+        <button class="mode-toggle" type="button" aria-label="Use dark mode" data-mode-toggle><span data-mode-label>Dark</span><span class="toggle-track" aria-hidden="true"><span></span></span></button>
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer shell">
+      <a class="wordmark" href="/">Knowledge Forge AI</a>
+      <div><a href="/journal/">Journal</a><a href="/journal/rss.xml">RSS</a><a href="/legal/">Licensing</a><a href="https://github.com/Knowledge-Forge-AI/Knowledge-Forge-AI.github.io/blob/main/CONTRIBUTING.md">Contributing</a><a href="mailto:sam.lair@knowledge-forge.ai">Get in touch</a></div>
+      <p>Thoughtful tools. Inspectable work. A little woodland curiosity.</p>
+    </footer>
+    <script>
+      const button = document.querySelector<HTMLButtonElement>('[data-mode-toggle]');
+      const label = document.querySelector('[data-mode-label]');
+      function syncMode() {
+        const dark = document.documentElement.dataset.theme === 'dark';
+        button?.setAttribute('aria-label', dark ? 'Use light mode' : 'Use dark mode');
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#142b29' : '#d7e3cc');
+        if (label) label.textContent = dark ? 'Light' : 'Dark';
+      }
+      syncMode();
+      button?.addEventListener('click', () => {
+        const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        try { localStorage.setItem('starlight-theme', next); } catch {}
+        syncMode();
+      });
+    </script>
+  </body>
+</html>
