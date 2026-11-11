@@ -1,0 +1,331 @@
+[
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.1.0",
+    "publishedAt": "2026-07-19T23:59:14Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.1.0",
+    "article": "apgr-0-1-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.10.0",
+    "publishedAt": "2026-09-11T08:14:50Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.10.0",
+    "article": "apgr-0-10-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.11.0",
+    "publishedAt": "2026-09-16T12:57:22Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.11.0",
+    "article": "apgr-0-11-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.12.0",
+    "publishedAt": "2026-09-20T18:40:56Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.12.0",
+    "article": "apgr-0-12-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.13.0",
+    "publishedAt": "2026-10-14T00:11:53Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.13.0",
+    "article": "apgr-0-13-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.13.1",
+    "publishedAt": "2026-10-23T11:04:12Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.13.1",
+    "article": "apgr-0-13-1"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.2.0",
+    "publishedAt": "2026-07-20T20:49:51Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.2.0",
+    "article": "apgr-0-2-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.3.0",
+    "publishedAt": "2026-07-22T10:16:20Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.3.0",
+    "article": "legacy:blog/knowledge-forge-apg-v030-release"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.4.0",
+    "publishedAt": "2026-07-27T00:44:06Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.4.0",
+    "article": "apgr-0-4-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.5.0",
+    "publishedAt": "2026-08-16T14:39:57Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.5.0",
+    "article": "apgr-0-5-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.6.0",
+    "publishedAt": "2026-08-21T20:43:28Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.6.0",
+    "article": "apgr-0-6-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.7.0",
+    "publishedAt": "2026-08-24T13:54:42Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.7.0",
+    "article": "apgr-0-7-0"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.8.1",
+    "publishedAt": "2026-09-06T17:13:42Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.8.1",
+    "article": "apgr-0-8-1"
+  },
+  {
+    "repository": "agentic-praxis-grimoire",
+    "version": "v0.9.0",
+    "publishedAt": "2026-09-08T19:30:28Z",
+    "url": "https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire/releases/tag/v0.9.0",
+    "article": "apgr-0-9-0"
+  },
+  {
+    "repository": "browser-ux_dinas",
+    "version": "v0.0.1",
+    "publishedAt": "2026-10-20T04:03:53Z",
+    "url": "https://github.com/Knowledge-Forge-AI/browser-ux_dinas/releases/tag/v0.0.1",
+    "article": "dinas-browser-2026-10-20"
+  },
+  {
+    "repository": "composition_dinas",
+    "version": "v0.0.1",
+    "publishedAt": "2026-10-22T02:56:49Z",
+    "url": "https://github.com/Knowledge-Forge-AI/composition_dinas/releases/tag/v0.0.1",
+    "article": "dinas-2026-10-22"
+  },
+  {
+    "repository": "darwin-is-not-a-snowflake",
+    "version": "v0.0.1",
+    "publishedAt": "2026-10-22T02:56:38Z",
+    "url": "https://github.com/Knowledge-Forge-AI/darwin-is-not-a-snowflake/releases/tag/v0.0.1",
+    "article": "dinas-2026-10-22"
+  },
+  {
+    "repository": "shadcn-theme-terminal-nova",
+    "version": "v0.1.0",
+    "publishedAt": "2026-10-30T10:07:57Z",
+    "url": "https://github.com/Knowledge-Forge-AI/shadcn-theme-terminal-nova/releases/tag/v0.1.0",
+    "article": "theme-forge-2026-10-30"
+  },
+  {
+    "repository": "shadcn-theme-terminal-nova",
+    "version": "v0.2.0",
+    "publishedAt": "2026-11-07T07:49:53Z",
+    "url": "https://github.com/Knowledge-Forge-AI/shadcn-theme-terminal-nova/releases/tag/v0.2.0",
+    "article": "theme-forge-2026-11-07"
+  },
+  {
+    "repository": "starlight-theme-terminal-nova",
+    "version": "v0.1.0",
+    "publishedAt": "2026-09-08T19:22:04Z",
+    "url": "https://github.com/Knowledge-Forge-AI/starlight-theme-terminal-nova/releases/tag/v0.1.0",
+    "article": "theme-forge-2026-09-08"
+  },
+  {
+    "repository": "starlight-theme-terminal-nova",
+    "version": "v0.2.0",
+    "publishedAt": "2026-09-14T22:11:20Z",
+    "url": "https://github.com/Knowledge-Forge-AI/starlight-theme-terminal-nova/releases/tag/v0.2.0",
+    "article": "theme-forge-2026-09-14"
+  },
+  {
+    "repository": "starlight-theme-terminal-nova",
+    "version": "v0.3.0",
+    "publishedAt": "2026-09-19T16:20:17Z",
+    "url": "https://github.com/Knowledge-Forge-AI/starlight-theme-terminal-nova/releases/tag/v0.3.0",
+    "article": "theme-forge-2026-09-19"
+  },
+  {
+    "repository": "starlight-theme-terminal-nova",
+    "version": "v0.4.0",
+    "publishedAt": "2026-10-30T10:08:03Z",
+    "url": "https://github.com/Knowledge-Forge-AI/starlight-theme-terminal-nova/releases/tag/v0.4.0",
+    "article": "theme-forge-2026-10-30"
+  },
+  {
+    "repository": "starlight-theme-terminal-nova",
+    "version": "v0.5.0",
+    "publishedAt": "2026-11-07T08:19:31Z",
+    "url": "https://github.com/Knowledge-Forge-AI/starlight-theme-terminal-nova/releases/tag/v0.5.0",
+    "article": "theme-forge-2026-11-07"
+  },
+  {
+    "repository": "theme-forge-nebular-fusion",
+    "version": "v0.1.0",
+    "publishedAt": "2026-09-06T04:21:06Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-nebular-fusion/releases/tag/v0.1.0",
+    "article": "theme-forge-2026-09-06"
+  },
+  {
+    "repository": "theme-forge-nebular-fusion",
+    "version": "v0.2.0",
+    "publishedAt": "2026-09-08T20:15:53Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-nebular-fusion/releases/tag/v0.2.0",
+    "article": "theme-forge-2026-09-08"
+  },
+  {
+    "repository": "theme-forge-nebular-fusion",
+    "version": "v0.3.0",
+    "publishedAt": "2026-09-14T22:14:28Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-nebular-fusion/releases/tag/v0.3.0",
+    "article": "theme-forge-2026-09-14"
+  },
+  {
+    "repository": "theme-forge-nebular-fusion",
+    "version": "v0.4.0",
+    "publishedAt": "2026-09-19T15:50:49Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-nebular-fusion/releases/tag/v0.4.0",
+    "article": "theme-forge-2026-09-19"
+  },
+  {
+    "repository": "theme-forge-nebular-fusion",
+    "version": "v0.6.1",
+    "publishedAt": "2026-09-30T22:54:44Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-nebular-fusion/releases/tag/v0.6.1",
+    "article": "theme-forge-2026-09-30"
+  },
+  {
+    "repository": "theme-forge-nebular-fusion",
+    "version": "v0.7.0",
+    "publishedAt": "2026-10-29T02:09:29Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-nebular-fusion/releases/tag/v0.7.0",
+    "article": "theme-forge-2026-10-29"
+  },
+  {
+    "repository": "theme-forge-nebular-fusion",
+    "version": "v0.7.1",
+    "publishedAt": "2026-10-31T08:30:56Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-nebular-fusion/releases/tag/v0.7.1",
+    "article": "theme-forge-2026-10-31"
+  },
+  {
+    "repository": "theme-forge-nebular-fusion",
+    "version": "v0.8.0",
+    "publishedAt": "2026-11-08T01:18:04Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-nebular-fusion/releases/tag/v0.8.0",
+    "article": "theme-forge-2026-11-08"
+  },
+  {
+    "repository": "theme-forge-solar-sail",
+    "version": "v0.1.0",
+    "publishedAt": "2026-09-19T15:50:46Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-solar-sail/releases/tag/v0.1.0",
+    "article": "theme-forge-2026-09-19"
+  },
+  {
+    "repository": "theme-forge-solar-sail",
+    "version": "v0.2.1",
+    "publishedAt": "2026-09-29T21:29:39Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-solar-sail/releases/tag/v0.2.1",
+    "article": "theme-forge-2026-09-29"
+  },
+  {
+    "repository": "theme-forge-solar-sail",
+    "version": "v0.3.0",
+    "publishedAt": "2026-10-26T06:25:22Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-solar-sail/releases/tag/v0.3.0",
+    "article": "theme-forge-2026-10-26"
+  },
+  {
+    "repository": "theme-forge-stellar-burst",
+    "version": "v0.1.0",
+    "publishedAt": "2026-08-22T11:42:48Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-burst/releases/tag/v0.1.0",
+    "article": "theme-forge-2026-08-22"
+  },
+  {
+    "repository": "theme-forge-stellar-burst",
+    "version": "v0.2.0",
+    "publishedAt": "2026-08-23T00:19:53Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-burst/releases/tag/v0.2.0",
+    "article": "theme-forge-2026-08-23"
+  },
+  {
+    "repository": "theme-forge-stellar-burst",
+    "version": "v0.3.0",
+    "publishedAt": "2026-08-24T13:37:38Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-burst/releases/tag/v0.3.0",
+    "article": "theme-forge-2026-08-24"
+  },
+  {
+    "repository": "theme-forge-stellar-burst",
+    "version": "v0.4.0",
+    "publishedAt": "2026-09-06T04:20:56Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-burst/releases/tag/v0.4.0",
+    "article": "theme-forge-2026-09-06"
+  },
+  {
+    "repository": "theme-forge-stellar-burst",
+    "version": "v0.5.0",
+    "publishedAt": "2026-09-14T22:00:54Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-burst/releases/tag/v0.5.0",
+    "article": "theme-forge-2026-09-14"
+  },
+  {
+    "repository": "theme-forge-stellar-burst",
+    "version": "v0.6.1",
+    "publishedAt": "2026-09-29T21:28:52Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-burst/releases/tag/v0.6.1",
+    "article": "theme-forge-2026-09-29"
+  },
+  {
+    "repository": "theme-forge-stellar-burst",
+    "version": "v0.7.0",
+    "publishedAt": "2026-10-26T23:24:27Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-burst/releases/tag/v0.7.0",
+    "article": "theme-forge-2026-10-26"
+  },
+  {
+    "repository": "theme-forge-stellar-loom",
+    "version": "v0.1.0",
+    "publishedAt": "2026-09-08T19:21:53Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-loom/releases/tag/v0.1.0",
+    "article": "theme-forge-2026-09-08"
+  },
+  {
+    "repository": "theme-forge-stellar-loom",
+    "version": "v0.2.0",
+    "publishedAt": "2026-09-14T22:10:37Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-loom/releases/tag/v0.2.0",
+    "article": "theme-forge-2026-09-14"
+  },
+  {
+    "repository": "theme-forge-stellar-loom",
+    "version": "v0.3.0",
+    "publishedAt": "2026-09-19T15:50:40Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-loom/releases/tag/v0.3.0",
+    "article": "theme-forge-2026-09-19"
+  },
+  {
+    "repository": "theme-forge-stellar-loom",
+    "version": "v0.4.0",
+    "publishedAt": "2026-09-29T21:29:14Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-loom/releases/tag/v0.4.0",
+    "article": "theme-forge-2026-09-29"
+  },
+  {
+    "repository": "theme-forge-stellar-loom",
+    "version": "v0.5.0",
+    "publishedAt": "2026-10-26T06:24:54Z",
+    "url": "https://github.com/Knowledge-Forge-AI/theme-forge-stellar-loom/releases/tag/v0.5.0",
+    "article": "theme-forge-2026-10-26"
+  }
+]

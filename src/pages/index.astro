@@ -1,0 +1,31 @@
+---
+import Site from '../layouts/Site.astro';
+import Arrow from '../components/Arrow.astro';
+import JournalList from '../components/JournalList.astro';
+import { journalEntries } from '../lib/journal';
+const recent = (await journalEntries()).slice(0, 3);
+const projects = [
+  { name: 'Agentic Praxis Grimoire', text: 'Tools and skills for bounded agent work.', url: 'https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire' },
+  { name: 'Common Lore Index', note: 'RepoMap · rebrand in progress', text: 'Evidence-linked knowledge graphs for repositories.', url: 'https://github.com/Knowledge-Forge-AI/repo-map' },
+  { name: 'Theme Forge', text: 'Compile visual intent into assets, themes and applications.', url: 'https://tfnf.knowledge-forge.ai/' },
+  { name: 'DINAS', text: 'A modular nix-darwin workstation framework.', url: 'https://github.com/Knowledge-Forge-AI/darwin-is-not-a-snowflake' },
+];
+---
+<Site>
+  <section class="hero shell" aria-labelledby="hero-title">
+    <div class="hero-copy"><h1 id="hero-title">Curiosity,<br />made useful.</h1><p class="lede">Open tools for understanding code, shaping systems, and making thoughtful things.</p><div class="actions"><a class="button" href="#projects">Explore projects</a><a class="text-link" href="/journal/">Read the journal</a></div></div>
+    <figure class="hero-art"><img src="/rei-ai.webp" width="1024" height="1536" fetchpriority="high" alt="Rei Ai, a cheerful adult Sylvan elf with long dark green hair, blue eyes, an evergreen and navy coat with gold leaf details, and a modern tablet." /><figcaption><strong>Rei Ai</strong> · A very old elf. A very new obsession.</figcaption></figure>
+  </section>
+  <section class="section projects shell" id="projects" aria-labelledby="projects-title">
+    <h2 id="projects-title">Different tools. A shared way of thinking.</h2>
+    <p class="section-intro">Knowledge Forge AI builds practical, inspectable software. Each project has its own job; each makes its inputs, decisions and outputs easier to understand.</p>
+    <div class="project-list">{projects.map(project => <article class="project-row"><div><h3><a href={project.url}>{project.name}</a></h3>{project.note && <small>{project.note}</small>}</div><p>{project.text}</p><a class="text-link" href={project.url} aria-label={`Explore ${project.name}`}>Explore <Arrow /></a></article>)}</div>
+    <nav class="family-links" aria-label="Theme Forge family and distribution"><span>Inside Theme Forge:</span><a href="https://tfsb.knowledge-forge.ai/">Stellar Burst</a><a href="https://tfsl.knowledge-forge.ai/">Stellar Loom</a><a href="https://tfss.knowledge-forge.ai/">Solar Sail</a><a href="https://tfnf.knowledge-forge.ai/">Nebular Fusion</a><a href="https://sttn.knowledge-forge.ai/">STTN</a><a href="https://cttn.knowledge-forge.ai/">CTTN</a><a href="https://rs9.knowledge-forge.ai/">Release Starport 9</a><a href="https://tf.rs9.knowledge-forge.ai/">Packages</a></nav>
+  </section>
+  <section class="origin-band" aria-labelledby="origin-title"><div class="shell"><h2 id="origin-title">It started with a workstation.</h2><p>DINAS made a complex system worth understanding. RepoMap grew from that need: a way to follow the relationships between code, configuration and the tools that bring a workstation to life.</p><a class="text-link" href="/journal/dinas-2026-10-22/">Read the origin story <Arrow /></a></div></section>
+  <section class="section about-grid shell" id="about" aria-label="About Knowledge Forge AI">
+    <div><h2>Meet Rei Ai</h2><p>A long-lived Sylvan elf who discovered modern technology and immediately wanted to understand it. Eccentric, intelligent and cheerfully curious, Rei Ai brings a woodland perspective to the forge.</p><p>Knowledge Forge AI is stewarded by Samuel Leighton Lair. We build in public, value clear evidence, and leave room for both engineering discipline and a little imagination.</p></div>
+    <div><h2>Open by design</h2><p>Read the source, inspect a release, or contribute an idea. Original website software and editorial text use AGPL-3.0-or-later, with commercial licensing available. Each product keeps its own license and contribution terms.</p><a class="text-link" href="https://github.com/Knowledge-Forge-AI">Source <Arrow /></a><a class="text-link" href="/legal/">Licenses <Arrow /></a><a class="text-link" href="https://github.com/Knowledge-Forge-AI/Knowledge-Forge-AI.github.io/blob/main/CONTRIBUTING.md">Contributing <Arrow /></a></div>
+  </section>
+  <section class="section recent shell" aria-labelledby="recent-title"><div class="section-heading"><h2 id="recent-title">Notes from the forge.</h2><a class="text-link" href="/journal/">All stories <Arrow /></a></div><JournalList entries={recent} level={3} /></section>
+</Site>
