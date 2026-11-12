@@ -12,7 +12,8 @@ their own licenses, copyright, attribution and notice terms. This notice does
 not revoke earlier public grants or relicense third-party material. Dependencies
 are identified in package-lock.json and retain their upstream notices.
 
-The Rei Ai illustration (public/rei-ai.webp) and organizational brand assets
+The Rei Ai and Shiori illustrations (public/rei-ai.webp and
+public/apgr/shiori.webp) and organizational brand assets
 are excluded from the AGPL grant. No separate artwork license is granted here;
 applicable rights are reserved. See BRAND-ASSETS.md for permissions and provenance.
 No trademark right or organizational endorsement is granted by this software

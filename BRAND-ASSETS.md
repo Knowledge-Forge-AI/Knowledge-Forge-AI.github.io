@@ -6,7 +6,13 @@ with modern technology. The original illustration was generated for this site
 with an AI image tool. The delivered `public/rei-ai.webp` retains transparency;
 the generation brief is recorded in `docs/rei-ai-art-direction.md`.
 
-The Rei Ai illustration (`public/rei-ai.webp`) and organizational brand assets
+Shiori is APGR’s original adult high-elf mascot: dark purple hair, dark blue
+eyes, purple/blue/silver robes and an obsession with grimoires. Her illustration
+at `public/apgr/shiori.webp` was created with the same built-in image tool;
+see `docs/shiori-art-direction.md`.
+
+The Rei Ai and Shiori illustrations (`public/rei-ai.webp` and
+`public/apgr/shiori.webp`) and organizational brand assets
 are not licensed under AGPL. No separate artwork license is granted here;
 applicable rights are reserved. Contact the steward for artwork permissions.
 Original software and editorial text use the repository's licensing terms.
