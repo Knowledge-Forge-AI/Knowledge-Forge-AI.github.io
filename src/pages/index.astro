@@ -5,7 +5,7 @@ import JournalList from '../components/JournalList.astro';
 import { journalEntries } from '../lib/journal';
 const recent = (await journalEntries()).slice(0, 3);
 const projects = [
-  { name: 'Agentic Praxis Grimoire', text: 'Tools and skills for bounded agent work.', url: 'https://github.com/Knowledge-Forge-AI/agentic-praxis-grimoire' },
+  { name: 'Agentic Praxis Grimoire', text: 'Tools and skills for bounded agent work.', url: '/apgr/' },
   { name: 'Common Lore Index', note: 'RepoMap · rebrand in progress', text: 'Evidence-linked knowledge graphs for repositories.', url: 'https://github.com/Knowledge-Forge-AI/repo-map' },
   { name: 'Theme Forge', text: 'Compile visual intent into assets, themes and applications.', url: 'https://tfnf.knowledge-forge.ai/' },
   { name: 'DINAS', text: 'A modular nix-darwin workstation framework.', url: 'https://github.com/Knowledge-Forge-AI/darwin-is-not-a-snowflake' },

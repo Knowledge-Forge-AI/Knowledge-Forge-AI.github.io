@@ -86,3 +86,14 @@ no earlier public grant is revoked.
 
 Steward and commercial contact: Samuel Leighton Lair,
 [sam.lair@knowledge-forge.ai](mailto:sam.lair@knowledge-forge.ai).
+
+## APGR project landing page
+
+`public/apgr/` contains Shiori’s independent HTML/CSS/JavaScript presentation
+page and optimized original WebP. It is published at
+https://www.knowledge-forge.ai/apgr/ by the existing site workflow, without
+changing APGR’s release-gated product repository or creating a product release.
+Astro copies these static files unchanged; the page has its own lavender/silver
+palette and light/dark control. The global site robots and 404 remain in effect.
+No application, dependency, lockfile or deployment-workflow change is involved.
+Revert this website commit and redeploy to roll back the landing page.
