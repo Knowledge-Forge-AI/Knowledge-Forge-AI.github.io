@@ -18,3 +18,12 @@ are excluded from the AGPL grant. No separate artwork license is granted here;
 applicable rights are reserved. See BRAND-ASSETS.md for permissions and provenance.
 No trademark right or organizational endorsement is granted by this software
 license. Other Knowledge Forge AI repositories have their own terms.
+
+The Hikari and Orihime reference illustrations displayed at
+`public/gallery/assets/hikari.webp` (from Knowledge-Forge-AI/release-starport-9)
+and `public/gallery/assets/orihime.webp`
+(from Knowledge-Forge-AI/theme-forge-stellar-burst) are also excluded from the
+AGPL grant. They are shown only in the owner-authorized gallery display scope;
+no artwork license or third-party reuse permission is granted here. Their
+source-specific terms are not stated by this record, and this notice does not
+relicense them.
