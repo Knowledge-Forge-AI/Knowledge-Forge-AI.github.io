@@ -22,6 +22,14 @@ Knowledge Forge AI work. Contact sam.lair@knowledge-forge.ai for brand-use
 questions or commercial arrangements. Nothing here restricts rights supplied
 by applicable law.
 
+The Hikari and Orihime reference illustrations displayed at
+`public/gallery/assets/hikari.webp` (from Knowledge-Forge-AI/release-starport-9)
+and `public/gallery/assets/orihime.webp`
+(from Knowledge-Forge-AI/theme-forge-stellar-burst) are likewise shown only in
+the owner-authorized gallery display scope. No artwork license or third-party
+reuse permission is granted here. Their source-specific terms are not stated
+by this record, and this document does not relicense them.
+
 Third-party names and linked projects are used for identification. The website
 does not redistribute proprietary fonts: its serif and humanist-sans stacks use
 locally available fonts and system fallbacks.

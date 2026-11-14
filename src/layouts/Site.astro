@@ -38,6 +38,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       <nav aria-label="Main navigation">
         <a href="/#projects">Projects</a>
         <a href="/journal/" aria-current={active === 'journal' ? 'page' : undefined}>Journal</a>
+        <a href="/gallery/" aria-current={active === 'gallery' ? 'page' : undefined}>Gallery</a>
         <a href="/#about">About</a>
         <a class="github-link" href="https://github.com/Knowledge-Forge-AI">GitHub</a>
         <button class="mode-toggle" type="button" aria-label="Use dark mode" data-mode-toggle><span data-mode-label>Dark</span><span class="toggle-track" aria-hidden="true"><span></span></span></button>
@@ -46,7 +47,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <main id="main"><slot /></main>
     <footer class="site-footer shell">
       <a class="wordmark" href="/">Knowledge Forge AI</a>
-      <div><a href="/journal/">Journal</a><a href="/journal/rss.xml">RSS</a><a href="/legal/">Licensing</a><a href="https://github.com/Knowledge-Forge-AI/Knowledge-Forge-AI.github.io/blob/main/CONTRIBUTING.md">Contributing</a><a href="mailto:sam.lair@knowledge-forge.ai">Get in touch</a></div>
+      <div><a href="/journal/">Journal</a><a href="/gallery/">Gallery</a><a href="/journal/rss.xml">RSS</a><a href="/legal/">Licensing</a><a href="https://github.com/Knowledge-Forge-AI/Knowledge-Forge-AI.github.io/blob/main/CONTRIBUTING.md">Contributing</a><a href="mailto:sam.lair@knowledge-forge.ai">Get in touch</a></div>
       <p>Thoughtful tools. Inspectable work. A little woodland curiosity.</p>
     </footer>
     <script>
