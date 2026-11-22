@@ -310,5 +310,291 @@
       "height": 720,
       "sha256": "b61b684e06e0fa072c7e9172316fe26b5defb6d9f44e7e4617458c162290d8ad"
     }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Early fusion baseline",
+    "briefCaption": "Rei Ai appears in an early fantasy cyberpunk fusion concept.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v1",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-v1-fusion.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": null,
+      "conversion": "2026-11-21"
+    },
+    "process": "image-generation",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "10f432f0e3118a0d53a023ba6790676c5de76324d982883e649586452f8c9a36"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Early fusion edit",
+    "briefCaption": "Rei Ai appears in an early fantasy cyberpunk fusion concept.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v1",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-v1-fusion-edit.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": null,
+      "conversion": "2026-11-21"
+    },
+    "process": "illustration-edit",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "7a44d70823febc6b85735213ddc1176a7c022b18a685adaa5e9f97b2b1f5f77b"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Early woodland fantasy study",
+    "briefCaption": "Rei Ai appears in an early fantasy concept.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v1",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-v1-fantasy.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": null,
+      "conversion": "2026-11-21"
+    },
+    "process": "image-generation",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "b8462d186499462965a03a44ce1fb8760bc6f1f8a92bd9d711749c686c2b189f"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Early cyberpunk study",
+    "briefCaption": "Rei Ai appears in an early cyberpunk concept.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "cyberpunk"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v1",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-v1-cyberpunk.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": null,
+      "conversion": "2026-11-21"
+    },
+    "process": "image-generation",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "033688b5d3ae61b90c6691c3569abe1d55abd366d2176977ba0fb0ae69ca8d44"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Early space-opera study",
+    "briefCaption": "Rei Ai appears in an early space opera concept.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "space-opera"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v1",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-v1-space-opera.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": null,
+      "conversion": "2026-11-21"
+    },
+    "process": "image-generation",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "2480e2aeb4d686f677dca8a0b33b74c0bbfb77df5983d8002e5f93327754b568"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Revised fusion baseline",
+    "briefCaption": "Rei Ai in a second-round fantasy cyberpunk fusion study.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-v2-fusion.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-14",
+      "conversion": "2026-11-21"
+    },
+    "process": "image-generation",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "fe1cb8388cb885f3362f7f83fbd0a9e9a36bd4d6470d2d4d1582319f05ac3e6f"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Revised fusion edit",
+    "briefCaption": "Rei Ai in a second-round fantasy cyberpunk fusion study.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-v2-fusion-edit.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-14",
+      "conversion": "2026-11-21"
+    },
+    "process": "illustration-edit",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "11218a7c9c243863dff9d50c5a8d52aad40cdd998e9ca1e853212c415d5525ea"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Revised cyberpunk concept",
+    "briefCaption": "Rei Ai in a second-round cyberpunk study.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "cyberpunk"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-v2-cyberpunk.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-14",
+      "conversion": "2026-11-21"
+    },
+    "process": "image-generation",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "fd5ce28bc3b5e1f753dfd75e568b0d524b7ad80b7baa44e499f2bd0cd0ff5a66"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Canonical fusion study",
+    "briefCaption": "Rei Ai in the canonical fusion study.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-trial-fusion.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-17",
+      "conversion": "2026-11-21"
+    },
+    "process": "image-generation",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "89100dda8b28376b2040e6acdea2745f8107211b088625577a26a5906c5b5ff5"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Woodland fantasy edit",
+    "briefCaption": "Rei Ai in the woodland fantasy edit.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-trial-fantasy.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-17",
+      "conversion": "2026-11-21"
+    },
+    "process": "illustration-edit",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "7b4452dca882e134b60a26f074fba9f11b205af58f91e9d0ded7085644889b75"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Technical explorer concept",
+    "briefCaption": "Rei Ai in the technical explorer concept.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "technical-exploration"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-trial-explorer.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-17",
+      "conversion": "2026-11-21"
+    },
+    "process": "image-generation",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "803e0d1b4a41d7e7dd8d53871a39d22356343a26e076d1414f2e619fcdde7b32"
+    }
   }
 ]
