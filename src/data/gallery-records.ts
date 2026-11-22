@@ -1,3 +1,5 @@
+import galleryStudies from './gallery-studies.json';
+
 export type GenreBasis =
   | 'current-owner-source-fact'
   | 'current-roadmap-fact'
@@ -68,7 +70,7 @@ export type GalleryRecord = {
  * The display scope does not grant third-party reuse and contains no private
  * prompts, masters, archive IDs, or unselected current study records.
  */
-export const galleryRecords = [
+const historicalGalleryRecords = [
   {
     characterId: 'rei-ai',
     displayName: 'Rei Ai',
@@ -80,7 +82,7 @@ export const galleryRecords = [
     styleReference: 'current-reference-for-style',
     registryStatus: 'reference-inventory',
     status: 'reference-inventory',
-    displayPath: '/rei-ai.webp',
+    displayPath: '/gallery/assets/rei-ai-original-site.webp',
     date: { registryRecorded: '2026-11-13', source: null, conversion: null },
     process: 'historical-import',
     generationStatus: 'imported',
@@ -136,7 +138,7 @@ export const galleryRecords = [
     styleReference: 'current-reference-for-style',
     registryStatus: 'reference-inventory',
     status: 'reference-inventory',
-    displayPath: '/apgr/shiori.webp',
+    displayPath: '/gallery/assets/shiori-original-site.webp',
     date: { registryRecorded: '2026-11-13', source: null, conversion: null },
     process: 'historical-import',
     generationStatus: 'imported',
@@ -303,6 +305,8 @@ export const galleryRecords = [
   },
 ] satisfies readonly GalleryRecord[];
 
+export const galleryRecords = [...historicalGalleryRecords, ...galleryStudies];
+
 export type GalleryFacetValues = {
   readonly character: string;
   readonly project: string;
@@ -313,7 +317,7 @@ export type GalleryFacetValues = {
   readonly process: string;
 };
 
-export const galleryFacetValues = (record: GalleryRecord): GalleryFacetValues => ({
+export const galleryFacetValues = (record: (typeof galleryRecords)[number]): GalleryFacetValues => ({
   character: record.characterId,
   project: record.projectId,
   genre: record.genre.length ? record.genre : ['not-recorded'],

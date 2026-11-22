@@ -11,6 +11,17 @@ import {
 const labelMap: Readonly<Record<string, string>> = {
   'rei-ai': 'Rei Ai',
   shiori: 'Shiori',
+  cloe: 'Cloe',
+  'common-lore-index': 'Common Lore Index',
+  'research-studio': 'Research studio',
+  'house-v2': 'Knowledge Forge house style v2',
+  selected: 'Site illustration',
+  concept: 'Concept study',
+  'muse-avatar': 'Muse avatar concept',
+  'image-generation': 'Image generation',
+  'concept-contact-sheet': 'Concept comparison sheet',
+  'vector-render': 'Editable vector render',
+  'illustration-edit': 'Illustration edit',
   hikari: 'Hikari',
   orihime: 'Orihime',
   'knowledge-forge-ai': 'Knowledge Forge AI',
@@ -72,12 +83,12 @@ const recordCount = galleryRecords.length;
 <Site
   title="Concept gallery"
   active="gallery"
-  description="Meet Rei Ai, Orihime, Hikari, and Shiori through four early illustrations from the forge's projects."
+  description="Explore mascot concepts, earlier portraits, and current illustrations from Knowledge Forge AI."
 >
   <section class="section gallery-intro shell" aria-labelledby="gallery-title">
     <p class="gallery-kicker">Concept gallery</p>
     <h1 id="gallery-title">Characters of the forge.</h1>
-    <p class="lede">Meet Rei Ai, Orihime, Hikari, and Shiori through four early illustrations from the forge's projects.</p>
+    <p class="lede">Explore mascot concepts, earlier portraits, and current illustrations from Knowledge Forge AI.</p>
   </section>
 
   <section class="section gallery-content shell" aria-labelledby="gallery-filter-title">
@@ -125,7 +136,7 @@ const recordCount = galleryRecords.length;
                   height={record.derivative.height}
                   decoding="async"
                   loading="lazy"
-                  alt={`${record.displayName}, ${record.approvedFacts.slice(0, 3).join(', ')}.`}
+                  alt={'approvedFacts' in record ? `${record.displayName}, ${record.approvedFacts.slice(0, 3).join(', ')}.` : record.briefCaption}
                 />
                 <figcaption>
                   <strong>{record.displayName}</strong>
@@ -133,11 +144,11 @@ const recordCount = galleryRecords.length;
                 </figcaption>
               </figure>
               <div class="gallery-card-body">
-                <h3>{record.displayName}</h3>
-                <p class="gallery-concept-label">Historical concept</p>
+                <h3>{'title' in record ? record.title : record.displayName}</h3>
+                <p class="gallery-concept-label">{'sourceIdentity' in record ? 'Historical concept' : labelFor(record.status)}</p>
                 <p class="gallery-project">{labelFor(record.projectId)}</p>
                 <p class="gallery-caption">{record.briefCaption}</p>
-                <details class="gallery-details">
+                {'sourceIdentity' in record ? <details class="gallery-details">
                   <summary>Source and process</summary>
                   <dl class="gallery-meta">
                     <div><dt>Process</dt><dd>{labelFor(record.process)}</dd></div>
@@ -166,7 +177,16 @@ const recordCount = galleryRecords.length;
                   </dl>
                   <a class="text-link" href={record.terms.sourceUrl}>{record.terms.sourceLinkLabel} <span aria-hidden="true">↗</span></a>
                   <a class="text-link" href={record.sourceIdentity.blobUrl}>Pinned source identity <span aria-hidden="true">↗</span></a>
-                </details>
+                </details> : <details class="gallery-details">
+                  <summary>Source and process</summary>
+                  <dl class="gallery-meta">
+                    <div><dt>Process</dt><dd>{labelFor(record.process)}</dd></div>
+                    <div><dt>Source date</dt><dd>{record.date.source}</dd></div>
+                    <div><dt>Style revision</dt><dd>{labelFor(record.styleRevision ?? 'not-recorded')}</dd></div>
+                    <div><dt>Authoring tool</dt><dd>{record.authoringTool ?? 'Not recorded'}</dd></div>
+                    <div><dt>Reuse</dt><dd>Gallery display only. Artwork rights reserved.</dd></div>
+                  </dl>
+                </details>}
               </div>
             </article>
           );

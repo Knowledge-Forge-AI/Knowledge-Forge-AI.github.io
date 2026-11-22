@@ -1,0 +1,314 @@
+[
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe in the research studio",
+    "briefCaption": "Silver-haired data scientist with green eyes holding a knowledge graph tablet.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "selected",
+    "displayPath": "/gallery/assets/cloe-research-studio.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-21",
+      "conversion": null
+    },
+    "process": "image-generation",
+    "authoringTool": "Built-in image tool",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c"
+    }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Fall outfit",
+    "briefCaption": "Silver-haired Cloe in a cream knit sweater and dark jeans.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "concept",
+    "displayPath": "/gallery/assets/cloe-fall.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-20",
+      "conversion": null
+    },
+    "process": "muse-avatar",
+    "authoringTool": "Muse avatar generator",
+    "derivative": {
+      "width": 1600,
+      "height": 1600,
+      "sha256": "670998dd9d803e0a5aa26c6d50c88c2ec4e7a886836bd67d491695b228019a1a"
+    }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Summer outfit",
+    "briefCaption": "Full-body summer outfit study of Cloe.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "concept",
+    "displayPath": "/gallery/assets/cloe-summer.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-21",
+      "conversion": null
+    },
+    "process": "muse-avatar",
+    "authoringTool": "Muse avatar generator",
+    "derivative": {
+      "width": 1600,
+      "height": 1600,
+      "sha256": "65038acb8276580e4f38cc0c29e0af63b7bb0299106cbca471c7f53279b7a3f4"
+    }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Halloween costume",
+    "briefCaption": "Cloe in a Halloween cat costume.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "concept",
+    "displayPath": "/gallery/assets/cloe-halloween.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-10-30",
+      "conversion": null
+    },
+    "process": "muse-avatar",
+    "authoringTool": "Muse avatar generator",
+    "derivative": {
+      "width": 1600,
+      "height": 1600,
+      "sha256": "4c9f4915b809f85bf2a5b988aef0526438e3c13980267b8fc60311a2f328b3b8"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Fusion and cyberpunk studies",
+    "briefCaption": "Two Rei Ai studies compare fantasy and cyberpunk treatments.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-style-comparison.jpg",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-14",
+      "conversion": null
+    },
+    "process": "concept-contact-sheet",
+    "authoringTool": null,
+    "derivative": {
+      "width": 1280,
+      "height": 720,
+      "sha256": "8c9422bf60a443a682c8270c667baa3428c6aa797081d4c4519716e81028d9a9"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Transparent character studies",
+    "briefCaption": "A comparison sheet of isolated Rei Ai character studies.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-style-cutouts.jpg",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-14",
+      "conversion": null
+    },
+    "process": "concept-contact-sheet",
+    "authoringTool": null,
+    "derivative": {
+      "width": 1265,
+      "height": 712,
+      "sha256": "0d60e4b73d74072f106db2470f8fc970ff62cc5183acc7d0202ec89c4eaf64d6"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Fusion, fantasy and explorer",
+    "briefCaption": "Three Rei Ai concepts compare fusion, fantasy and technical explorer outfits.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-illustration-trial.png",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-17",
+      "conversion": null
+    },
+    "process": "concept-contact-sheet",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 1152,
+      "height": 576,
+      "sha256": "c35961d47990514f3d0ce26c4902158c06124e7beb508225b4d49a80304ba1d5"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Observatory",
+    "briefCaption": "Rei Ai in an observatory, rendered from editable SVG geometry.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-vector-observatory.png",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-18",
+      "conversion": null
+    },
+    "process": "vector-render",
+    "authoringTool": "TFSB",
+    "derivative": {
+      "width": 720,
+      "height": 880,
+      "sha256": "52797d2660f4ed9dc5131202410fe56c2496ae73adcb6d69c63012d0e1bfe599"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Twilight observatory",
+    "briefCaption": "Rei Ai in an observatory, rendered from editable SVG geometry.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-vector-twilight.png",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-18",
+      "conversion": null
+    },
+    "process": "vector-render",
+    "authoringTool": "TFSB",
+    "derivative": {
+      "width": 720,
+      "height": 880,
+      "sha256": "d30e617b49afb07c4fd96b3f356faa8f583c99b5971db4159bc7d38b412114c3"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Character cutout",
+    "briefCaption": "Rei Ai isolated from the observatory scene, rendered from editable SVG geometry.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-character.png",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-19",
+      "conversion": null
+    },
+    "process": "vector-render",
+    "authoringTool": "TFSB",
+    "derivative": {
+      "width": 720,
+      "height": 880,
+      "sha256": "e297e31d1ca1ea8a9c446d3cfb306eb78233bc19b1a8ef0ed05ff4f4e4c23027"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Twilight character cutout",
+    "briefCaption": "Rei Ai isolated from the observatory scene, rendered from editable SVG geometry.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-character-twilight.png",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": "2026-11-19",
+      "conversion": null
+    },
+    "process": "vector-render",
+    "authoringTool": "TFSB",
+    "derivative": {
+      "width": 720,
+      "height": 880,
+      "sha256": "f7afd2a084fbf65be7e052129f91bef0aebdf4df2ff177eda64c3c3dd457f4c8"
+    }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Illustration edit study",
+    "briefCaption": "An early Rei Ai edit preserved as a web illustration.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "concept",
+    "displayPath": "/gallery/assets/rei-managed-edit.webp",
+    "date": {
+      "registryRecorded": "2026-11-21",
+      "source": null,
+      "conversion": null
+    },
+    "process": "illustration-edit",
+    "authoringTool": "TFSB native-agent workflow",
+    "derivative": {
+      "width": 480,
+      "height": 720,
+      "sha256": "b61b684e06e0fa072c7e9172316fe26b5defb6d9f44e7e4617458c162290d8ad"
+    }
+  }
+]

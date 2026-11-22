@@ -33,3 +33,7 @@ by this record, and this document does not relicense them.
 Third-party names and linked projects are used for identification. The website
 does not redistribute proprietary fonts: its serif and humanist-sans stacks use
 locally available fonts and system fallbacks.
+
+The Cloe illustrations and mascot studies under `public/gallery/assets/` are
+owner-authorized for gallery display. Artwork rights are reserved separately
+from the software license.
