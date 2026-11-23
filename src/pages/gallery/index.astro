@@ -20,10 +20,12 @@ const labelMap: Readonly<Record<string, string>> = {
   'house-v2': 'Knowledge Forge house style v2',
   selected: 'Site illustration',
   concept: 'Concept study',
+  'technical-study': 'Technical study',
   'muse-avatar': 'Muse avatar concept',
   'image-generation': 'Image generation',
   'concept-contact-sheet': 'Concept comparison sheet',
   'vector-render': 'Editable vector render',
+  'svg-to-webp': 'SVG trace and WebP export',
   'illustration-edit': 'Illustration edit',
   hikari: 'Hikari',
   orihime: 'Orihime',
@@ -184,9 +186,17 @@ const recordCount = galleryRecords.length;
                   <summary>Source and process</summary>
                   <dl class="gallery-meta">
                     <div><dt>Process</dt><dd>{labelFor(record.process)}</dd></div>
-                    <div><dt>Source date</dt><dd>{record.date.source}</dd></div>
+                    <div><dt>Source date</dt><dd>{record.date.source ?? 'Not recorded in this gallery'}</dd></div>
+                    {record.date.conversion && <div><dt>Conversion date</dt><dd>{record.date.conversion}</dd></div>}
                     <div><dt>Style revision</dt><dd>{labelFor(record.styleRevision ?? 'not-recorded')}</dd></div>
                     <div><dt>Authoring tool</dt><dd>{record.authoringTool ?? 'Not recorded'}</dd></div>
+                    {'trace' in record && record.trace && <>
+                      <div><dt>Reference</dt><dd><a href={record.trace.referencePath}>View reference artwork</a></dd></div>
+                      <div><dt>Reference SHA-256</dt><dd>{record.trace.referenceSha256}</dd></div>
+                      <div><dt>SVG source</dt><dd>{record.trace.svgBytes.toLocaleString('en-US')} bytes</dd></div>
+                      <div><dt>SVG SHA-256</dt><dd>{record.trace.svgSha256}</dd></div>
+                      <div><dt>WebP SHA-256</dt><dd>{record.derivative.sha256}</dd></div>
+                    </>}
                     <div><dt>Reuse</dt><dd>Gallery display only. Artwork rights reserved.</dd></div>
                   </dl>
                 </details>}
