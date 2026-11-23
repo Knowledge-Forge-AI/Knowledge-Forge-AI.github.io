@@ -37,3 +37,8 @@ locally available fonts and system fallbacks.
 The Cloe illustrations and mascot studies under `public/gallery/assets/` are
 owner-authorized for gallery display. Artwork rights are reserved separately
 from the software license.
+
+The SVG trace and WebP export entries under `public/gallery/assets/` are
+technical studies of existing gallery illustrations. Their records identify
+the retained reference and the editable SVG by checksum. Gallery delivery
+uses the WebP derivative. The existing artwork terms apply to these studies.
