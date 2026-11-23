@@ -627,6 +627,17 @@
       "referenceSha256": "c5e09f5cb7cc83b5df159467d853d6627c4de27f9dd87db06a71a57dabbbfe1d",
       "svgBytes": 9329602,
       "svgSha256": "3ad74e28238af3af5f34ec39b87095e2591f9ad7474a0271d62d1b2d66d7dd71"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/rei-ai-svg-study-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 131132,
+      "sha256": "6499ad701286044b2f7676bb1d8fbde1bf113c7a721416403e6221b17a0ad0dd",
+      "sourceSvgSha256": "3ad74e28238af3af5f34ec39b87095e2591f9ad7474a0271d62d1b2d66d7dd71",
+      "pngSha256": "c88d397426d62d2292ef4f4a5e78dcfc86a73481e8bc3ab85a3fb3d59fb0b1cc",
+      "recipeSha256": "be63233d5eaa27f59c1411644dda6a78587f24354081a88537f8c3b594680924"
     }
   },
   {
@@ -657,6 +668,17 @@
       "referenceSha256": "7fa33afd77cd87ddc0240a25eea2ff1464911fe7ac4ff5068b49ca9bea11fc66",
       "svgBytes": 11541184,
       "svgSha256": "ab777ca6413e73da856b0a9221bc4001fde84d3f61ec197bdd3c5a47a1225e6d"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/orihime-svg-study-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 158116,
+      "sha256": "04052057040e498bcfddb9bb08cd179a56eddf84e332794c927d2ae12bdea2de",
+      "sourceSvgSha256": "ab777ca6413e73da856b0a9221bc4001fde84d3f61ec197bdd3c5a47a1225e6d",
+      "pngSha256": "a37cf9c5e04ad541246e9ad2b29b85417eeff04b49ede0f5b2bbf73b689537c2",
+      "recipeSha256": "7e34bde8024955075bcff3ef3dcc5f138d076f94cd2c0bf4c2c2bd23437c724a"
     }
   },
   {
@@ -689,6 +711,17 @@
       "referenceSha256": "79f3fb675f2644069d6a3d5aa6a3a19d61c313e7691cb638c830c5f857cb5c23",
       "svgBytes": 5897826,
       "svgSha256": "47969b16d4a2c2e50002583ab2381c3fd44835594b2dcdae5bd6dfd6f1ff0457"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/hikari-svg-study-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 93806,
+      "sha256": "45dd1295299b013f7f464d14972089c394546242b790049a0c2667d66280789a",
+      "sourceSvgSha256": "47969b16d4a2c2e50002583ab2381c3fd44835594b2dcdae5bd6dfd6f1ff0457",
+      "pngSha256": "1a1e4be463da591c72ac71dcc008cae65942db1dc0ab0a3b47a82a945f4699a5",
+      "recipeSha256": "0dfcf61978af9a3ca177b712feeabcab7be208f5f746ead130333080599c9352"
     }
   },
   {
@@ -721,6 +754,17 @@
       "referenceSha256": "1232c9de2fe441aae6586937aad627c591f7d3db21c34145140342b2d6c920b8",
       "svgBytes": 10488770,
       "svgSha256": "8a345be10751d9add6194bab9a214a6057b419c7156d5ed3d9dd8dc1333c87df"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/shiori-svg-study-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 134956,
+      "sha256": "d1c329fb3687a167a3717194839f73c65b5fcacd8d3c94a937f35dc355a498c4",
+      "sourceSvgSha256": "8a345be10751d9add6194bab9a214a6057b419c7156d5ed3d9dd8dc1333c87df",
+      "pngSha256": "c1614ae7e4ee6223747763f996a0343a798e04fcbf88fd8e23f762409d1e523d",
+      "recipeSha256": "a2c01936269dc0d85617d7ad7c6585c64bbbb5bf17dd8b7f120d6d9153589e74"
     }
   },
   {
@@ -753,6 +797,17 @@
       "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
       "svgBytes": 13108200,
       "svgSha256": "1de5a0f410c2cc6b8fc62bf3ba8e49a3439dd12f70c058ecc155bf4b3e437972"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-study-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 180612,
+      "sha256": "b3bc10413120081ae33dff195be9641bed5295830bf60fd29427336c2167cda5",
+      "sourceSvgSha256": "1de5a0f410c2cc6b8fc62bf3ba8e49a3439dd12f70c058ecc155bf4b3e437972",
+      "pngSha256": "6220308dcf1b85029d86ae0897bff3298bef2a23043dbf67017c03635f55280b",
+      "recipeSha256": "fec06c559a741072d9c4de06740fdfb1b99d41eaa4d2095e2c1cdfe9086e5649"
     }
   }
 ]

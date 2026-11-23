@@ -83,6 +83,7 @@ const controls = [
 ] as const;
 
 const recordCount = galleryRecords.length;
+const studySizes = '(max-width: 720px) calc(100vw - 40px), (max-width: 780px) calc(100vw - 64px), (max-width: 1050px) calc(50vw - 32px - 1rem), (max-width: 1416px) calc(50vw - 48px - 1rem), calc(660px - 1rem)';
 ---
 
 <Site
@@ -122,6 +123,7 @@ const recordCount = galleryRecords.length;
       <div class="gallery-grid" id="gallery-grid">
         {galleryRecords.map((record) => {
           const facets = galleryFacetValues(record);
+          const responsive = 'responsiveDerivative' in record ? record.responsiveDerivative : undefined;
           return (
             <article
               class="gallery-card"
@@ -137,6 +139,8 @@ const recordCount = galleryRecords.length;
                 <img
                   class="gallery-card-image"
                   src={record.displayPath}
+                  srcset={responsive && `${responsive.path} ${responsive.width}w, ${record.displayPath} ${record.derivative.width}w`}
+                  sizes={responsive && studySizes}
                   width={record.derivative.width}
                   height={record.derivative.height}
                   decoding="async"
@@ -146,6 +150,7 @@ const recordCount = galleryRecords.length;
                 <figcaption>
                   <strong>{record.displayName}</strong>
                   <span>{labelFor(record.projectId)}</span>
+                  {responsive && <a href={record.displayPath}>View full-size artwork for {record.displayName}</a>}
                 </figcaption>
               </figure>
               <div class="gallery-card-body">
