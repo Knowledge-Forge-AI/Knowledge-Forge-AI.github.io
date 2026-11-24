@@ -1117,5 +1117,49 @@
       "pngSha256": "32f9ef2c4521a310e1fb9372d92dc291c1c54b380c029cda39df156ba353a983",
       "recipeSha256": "d4bafc987cc3519e12537dfdbfc9a2d5979531a2b1bdf0bfe6c6eed46d2230e5"
     }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe · SVG chalkboard network",
+    "fullSizeLinkLabel": "View full-size Cloe chalkboard network",
+    "briefCaption": "Full-body Cloe with her knowledge-graph tablet and finer network lines on the chalkboard behind her.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/cloe-svg-chalkboard.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": "2026-11-21",
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "9b25aebcc35881fc0c55639bdcd8527b4602adab0c33ae5ba69263f22378a3ba"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/cloe-research-studio.webp",
+      "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
+      "svgBytes": 8247075,
+      "svgSha256": "ac354805a203e7b2675ce076e1084b7a579cc32f403c57e7abc58acab32e7878"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-chalkboard-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 190794,
+      "sha256": "52ccf2182d2844a2b8732aef68813a0252267b2a0c0ac7a8d03a2476a086a65d",
+      "sourceSvgSha256": "ac354805a203e7b2675ce076e1084b7a579cc32f403c57e7abc58acab32e7878",
+      "pngSha256": "5cc29b92a3012a2722060205289a6f8b9a964fb2547db40947db925516521732",
+      "recipeSha256": "e140d1f1df8d1b920000036ccc294e953c9ead68cbcd2e30eccc28c7af2f252d"
+    }
   }
 ]
