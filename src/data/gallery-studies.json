@@ -1205,5 +1205,49 @@
       "pngSha256": "925e8ea6e131b75e6171d18621f340ab363fd1fb3ca37056f5aaa570740f6a96",
       "recipeSha256": "43e2988723ecac20aca8396138c9dc8330c339965fce02abd0de3c9e7457daca"
     }
+  },
+  {
+    "characterId": "hikari",
+    "displayName": "Hikari",
+    "title": "Hikari · SVG uniform needlework",
+    "fullSizeLinkLabel": "View full-size Hikari uniform needlework",
+    "briefCaption": "Full-body Hikari in an indigo and pearl admiral’s uniform with gold insignia and embroidered panels.",
+    "projectId": "release-starport-9",
+    "genre": [
+      "space-opera"
+    ],
+    "genreBasis": "current-roadmap-fact",
+    "styleRevision": null,
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/hikari-svg-needlework.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": null,
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5c37095e6af115c1e98c3b669b55fa9a25b23431903aa8a5338e5a3ae545b525"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/hikari.webp",
+      "referenceSha256": "79f3fb675f2644069d6a3d5aa6a3a19d61c313e7691cb638c830c5f857cb5c23",
+      "svgBytes": 3688820,
+      "svgSha256": "3b94cadb85e7332d2bb51c9df4a857e6fe26c988b85727572167843a731430ba"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/hikari-svg-needlework-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 96928,
+      "sha256": "99c9c3393754ad140895d55649a6c5950b60e7032082a0b0d5a98d4953ed4e44",
+      "sourceSvgSha256": "3b94cadb85e7332d2bb51c9df4a857e6fe26c988b85727572167843a731430ba",
+      "pngSha256": "053e1e06f2c715a1ccd00fb182cb46c943e730fd2d11fb5a307f5a1aa9aec36f",
+      "recipeSha256": "7d5f16e9fce5699b5c117d8515767252d54a5e4d73bbe978485b0ff2122d507a"
+    }
   }
 ]
