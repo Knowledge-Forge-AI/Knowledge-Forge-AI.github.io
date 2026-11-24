@@ -1,12 +1,16 @@
 ---
+import { publicDir } from 'astro:config/server';
 import Site from '../../layouts/Site.astro';
 import '../../styles/gallery.css';
+import { verifyGalleryAssets } from '../../data/verify-gallery-assets';
 import {
   galleryFacetOptions,
   galleryFacetValues,
   galleryRecords,
   type GenreBasis,
 } from '../../data/gallery-records';
+
+await verifyGalleryAssets(publicDir, galleryRecords);
 
 const labelMap: Readonly<Record<string, string>> = {
   'rei-ai': 'Rei Ai',
