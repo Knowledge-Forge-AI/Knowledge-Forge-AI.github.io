@@ -1161,5 +1161,49 @@
       "pngSha256": "5cc29b92a3012a2722060205289a6f8b9a964fb2547db40947db925516521732",
       "recipeSha256": "e140d1f1df8d1b920000036ccc294e953c9ead68cbcd2e30eccc28c7af2f252d"
     }
+  },
+  {
+    "characterId": "shiori",
+    "displayName": "Shiori",
+    "title": "Shiori · SVG grimoire detail",
+    "fullSizeLinkLabel": "View full-size Shiori grimoire detail",
+    "briefCaption": "Full-body Shiori in purple and silver robes holding an open grimoire with fine metalwork.",
+    "projectId": "agentic-praxis-grimoire",
+    "genre": [
+      "fantasy"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/shiori-svg-grimoire.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": null,
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "432b86be04d7497dca2432a8fa216189ae86830a3c7f9e93ea49867fefd54c37"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/shiori-original-site.webp",
+      "referenceSha256": "1232c9de2fe441aae6586937aad627c591f7d3db21c34145140342b2d6c920b8",
+      "svgBytes": 6467766,
+      "svgSha256": "1e6bca55f90d18b2b40391e0ee248d20005d995c012ef6466207747f0aaf0f36"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/shiori-svg-grimoire-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 139616,
+      "sha256": "74e5e251faf94904e3f470552cf6ba96a569a23e0ed1f31f420347c503fc7fa4",
+      "sourceSvgSha256": "1e6bca55f90d18b2b40391e0ee248d20005d995c012ef6466207747f0aaf0f36",
+      "pngSha256": "925e8ea6e131b75e6171d18621f340ab363fd1fb3ca37056f5aaa570740f6a96",
+      "recipeSha256": "43e2988723ecac20aca8396138c9dc8330c339965fce02abd0de3c9e7457daca"
+    }
   }
 ]
