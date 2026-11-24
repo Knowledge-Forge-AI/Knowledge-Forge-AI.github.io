@@ -809,5 +809,181 @@
       "pngSha256": "6220308dcf1b85029d86ae0897bff3298bef2a23043dbf67017c03635f55280b",
       "recipeSha256": "fec06c559a741072d9c4de06740fdfb1b99d41eaa4d2095e2c1cdfe9086e5649"
     }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe · SVG line refinement",
+    "fullSizeLinkLabel": "View full-size Cloe line refinement",
+    "briefCaption": "Full-body Cloe with finer editable lines in her hair and on her knowledge graph tablet.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/cloe-svg-line-refinement.webp",
+    "date": {
+      "registryRecorded": "2026-11-23",
+      "source": "2026-11-21",
+      "conversion": "2026-11-23"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4199387b9c6ce2500b37a717f7bbf117eb545a5d17d2cb3f356856090e799817"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/cloe-research-studio.webp",
+      "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
+      "svgBytes": 13243186,
+      "svgSha256": "748d09891f158f32ca5da0e5bd8c36d58b03f682972474526622468a502c7070"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-line-refinement-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 93,
+      "byteLength": 160640,
+      "sha256": "17f432f2694bc1cfa4f05d20ecbf81fe69c06059de88049b555b2fed3ccaff1c",
+      "sourceSvgSha256": "748d09891f158f32ca5da0e5bd8c36d58b03f682972474526622468a502c7070",
+      "pngSha256": "c371139de3f6b9a423c69ea38536760f76a48c4d7005005de364ddafb58a7f34",
+      "recipeSha256": "eadbf62a1b385918e2667f6f878077363ee39719863212d0c466a305b92e216c"
+    }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe · SVG face contour refinement",
+    "fullSizeLinkLabel": "View full-size Cloe face contour refinement",
+    "briefCaption": "Full-body Cloe holding a knowledge-graph tablet, with finer contours around her eyes, cheek, and jaw.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/cloe-svg-face-contour.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": "2026-11-21",
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "ee38bd6b2645fac85d3c27548fb6b694b91d9d2db9aba0ae8e3ca91ff8c2629e"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/cloe-research-studio.webp",
+      "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
+      "svgBytes": 13251358,
+      "svgSha256": "af296773ebf9e4e2d2c1ce78670ef94be285d3aa0568db796bf33a871e45033f"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-face-contour-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 94,
+      "byteLength": 170782,
+      "sha256": "de4f27c7ca732204370df774a1e805895dc5e4d61069d1e1e3699b101a24a243",
+      "sourceSvgSha256": "af296773ebf9e4e2d2c1ce78670ef94be285d3aa0568db796bf33a871e45033f",
+      "pngSha256": "adebd27ef517a67e415132ba37bfca2bfd38488c109bcb34e39c4f934801c896",
+      "recipeSha256": "7b66f3f06e3cebe38f11fb40950fba9959469ec29257bd588a848a48fa4729d0"
+    }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe · SVG knit and tablet detail",
+    "fullSizeLinkLabel": "View full-size Cloe knit and tablet detail",
+    "briefCaption": "Full-body Cloe wearing a green cardigan and holding a tablet, with finer knit and graph lines.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/cloe-svg-knit-and-tablet.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": "2026-11-21",
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "0190c994a418043a06213f77ae60f55e7961579dd1d58cc5919c7707bd8dfcc6"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/cloe-research-studio.webp",
+      "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
+      "svgBytes": 13258811,
+      "svgSha256": "40fc52c61ddf7154cf3e3f85de94fc7505cbe15f6a1bbb81fa9a11eb615e4582"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-knit-and-tablet-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 190712,
+      "sha256": "259746cc011acf97777c7df59d3442481008d3da1a00455bc3467744e6e0bf47",
+      "sourceSvgSha256": "40fc52c61ddf7154cf3e3f85de94fc7505cbe15f6a1bbb81fa9a11eb615e4582",
+      "pngSha256": "61aa6299b90e5a71f387e968867faacd9c09a07e0567282b27e6c877913d8599",
+      "recipeSha256": "19158eb9fb5630c4c1253ebd11e0e214ef4a9284ac594076ad52b79bcf7f5ec9"
+    }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe · SVG hair and satchel detail",
+    "fullSizeLinkLabel": "View full-size Cloe hair and satchel detail",
+    "briefCaption": "Full-body Cloe holding a knowledge-graph tablet, with finer lines along her hair and satchel.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/cloe-svg-hair-and-satchel.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": "2026-11-21",
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f54d1c64d07ae0ba6b2f978e437ba8bd2aa7df33d83d2cbeada0ccad9d7b401e"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/cloe-research-studio.webp",
+      "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
+      "svgBytes": 8218803,
+      "svgSha256": "0e327a82223df961dc38d82690c18a766c6d5c97756d2e46984fd7e43908e86d"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-hair-and-satchel-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 190722,
+      "sha256": "51db73e95567c2f18365a1d8ca6015ebdb4762f53922d12b4278e828aa19ea17",
+      "sourceSvgSha256": "0e327a82223df961dc38d82690c18a766c6d5c97756d2e46984fd7e43908e86d",
+      "pngSha256": "8bf26b454ce14a3bc6fba434596f8a301534f1a903c201d498553f5c36e97209",
+      "recipeSha256": "08812427b6884ff5662609baca4d2be3fc11b2751207f18ffe847ac6b5e870dc"
+    }
   }
 ]

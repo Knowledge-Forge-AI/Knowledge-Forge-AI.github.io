@@ -154,7 +154,7 @@ const studySizes = '(max-width: 720px) calc(100vw - 40px), (max-width: 780px) ca
                 <figcaption>
                   <strong>{record.displayName}</strong>
                   <span>{labelFor(record.projectId)}</span>
-                  {responsive && <a href={record.displayPath}>View full-size artwork for {record.displayName}</a>}
+                  {responsive && <a href={record.displayPath}>{'fullSizeLinkLabel' in record ? record.fullSizeLinkLabel : `View full-size artwork for ${record.displayName}`}</a>}
                 </figcaption>
               </figure>
               <div class="gallery-card-body">
