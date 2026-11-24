@@ -1249,5 +1249,50 @@
       "pngSha256": "053e1e06f2c715a1ccd00fb182cb46c943e730fd2d11fb5a307f5a1aa9aec36f",
       "recipeSha256": "7d5f16e9fce5699b5c117d8515767252d54a5e4d73bbe978485b0ff2122d507a"
     }
+  },
+  {
+    "characterId": "rei-ai",
+    "displayName": "Rei Ai",
+    "title": "Rei Ai · SVG tablet line refinement",
+    "briefCaption": "Full-body Rei Ai with refined cyan tablet edges and a gold tablet crest.",
+    "projectId": "knowledge-forge-ai",
+    "genre": [
+      "fantasy-cyberpunk-fusion"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": null,
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/rei-ai-svg-tablet.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": null,
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "1d03f3f22d922708b24f64651515fb28ec95e58eae4026598ab626de3defbde7",
+      "byteLength": 282148
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/rei-ai-original-site.webp",
+      "referenceSha256": "c5e09f5cb7cc83b5df159467d853d6627c4de27f9dd87db06a71a57dabbbfe1d",
+      "svgBytes": 5793310,
+      "svgSha256": "e257463553896bb04d0afefc617c6326fb7c38a72e33e0ec523f019e5ba5333d"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/rei-ai-svg-tablet-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 136834,
+      "sha256": "e1e98ee6804c439b50949002893719429631f8e0c10f5da4d6850631a2d15afb",
+      "sourceSvgSha256": "e257463553896bb04d0afefc617c6326fb7c38a72e33e0ec523f019e5ba5333d",
+      "pngSha256": "85997124a25ef73a896ec707cb8811f8fad811252ef8ec3214c27cf1a76afa30",
+      "recipeSha256": "d3a0eaee7652f1a32b508c866bec69796d8093febbf10cb2b5e34fd8475ace6f"
+    },
+    "fullSizeLinkLabel": "View full-size Rei Ai tablet study"
   }
 ]
