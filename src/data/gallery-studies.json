@@ -985,5 +985,137 @@
       "pngSha256": "8bf26b454ce14a3bc6fba434596f8a301534f1a903c201d498553f5c36e97209",
       "recipeSha256": "08812427b6884ff5662609baca4d2be3fc11b2751207f18ffe847ac6b5e870dc"
     }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe · SVG trouser and shoe contours",
+    "fullSizeLinkLabel": "View full-size Cloe trouser and shoe contours",
+    "briefCaption": "Full-body Cloe with refined trouser folds and shoe contours, holding her knowledge-graph tablet.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/cloe-svg-trouser-and-shoe.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": "2026-11-21",
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "1ba5de309a9f16ee73aa24e5ff7a5997106bf3534f344c42dcfb042b27ccb557"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/cloe-research-studio.webp",
+      "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
+      "svgBytes": 8231855,
+      "svgSha256": "a993fffeeee7eac44414c6d0f6ff0f4797160bad49d8a6a883163126eed41449"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-trouser-and-shoe-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 190756,
+      "sha256": "c46802c7b332f6cb3c406646ca9ce8aa084e2cd797dbeb3b75c145dcdc6c896e",
+      "sourceSvgSha256": "a993fffeeee7eac44414c6d0f6ff0f4797160bad49d8a6a883163126eed41449",
+      "pngSha256": "28bec52f1cea51f132b83c34c894214f92c8a02285d51ae89cd0f721b24f31e5",
+      "recipeSha256": "116deaa07558d90b4f3730ed51416188d2455eaf99330a53e9a89a60a505c0f0"
+    }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe · SVG stylus and drawing-hand contours",
+    "fullSizeLinkLabel": "View full-size Cloe stylus and drawing-hand contours",
+    "briefCaption": "Full-body Cloe holding a knowledge-graph tablet, with a sharper stylus and drawing-hand contours.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/cloe-svg-stylus.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": "2026-11-21",
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5850cbd067a453c654046478a2da760aca41e62d776b4d496b049731e806147e"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/cloe-research-studio.webp",
+      "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
+      "svgBytes": 8233980,
+      "svgSha256": "cb982aa7cfbcf6c5eba74e3056580ce872924e405679ef70763937441bea30e3"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-stylus-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 190734,
+      "sha256": "9e33b828d1c8318a45dc3f35d616d565bb9c2746fb1184560c2566c961a58689",
+      "sourceSvgSha256": "cb982aa7cfbcf6c5eba74e3056580ce872924e405679ef70763937441bea30e3",
+      "pngSha256": "61d9f871febf417e47746bda0c1fa3c525282fe3e91ab234f32420d4a71cb968",
+      "recipeSha256": "c684777105a3a47e4e82e4b99984fcc2bc190913a7c6729bad87d8c9cc387ef2"
+    }
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe · SVG supporting-hand contours",
+    "fullSizeLinkLabel": "View full-size Cloe supporting-hand contours",
+    "briefCaption": "Full-body Cloe holding a knowledge-graph tablet, with finer lines around the hand supporting it.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/cloe-svg-supporting-hand.webp",
+    "date": {
+      "registryRecorded": "2026-11-24",
+      "source": "2026-11-21",
+      "conversion": "2026-11-24"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "862974119e809f40bf5d9004ef790c4f97476c1c9810d431d90536095c977baa"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/cloe-research-studio.webp",
+      "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
+      "svgBytes": 8238215,
+      "svgSha256": "9cca29481969e8e316d9025d8e2bfb0a14af50da2d40b17e2f8006835723fc03"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-supporting-hand-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 190764,
+      "sha256": "55a11407bdfc09fbd8005b9ee7799b2bdac1cc091ea0526e1f2b9fc9cfa50db2",
+      "sourceSvgSha256": "9cca29481969e8e316d9025d8e2bfb0a14af50da2d40b17e2f8006835723fc03",
+      "pngSha256": "32f9ef2c4521a310e1fb9372d92dc291c1c54b380c029cda39df156ba353a983",
+      "recipeSha256": "d4bafc987cc3519e12537dfdbfc9a2d5979531a2b1bdf0bfe6c6eed46d2230e5"
+    }
   }
 ]
