@@ -1294,5 +1294,49 @@
       "recipeSha256": "d3a0eaee7652f1a32b508c866bec69796d8093febbf10cb2b5e34fd8475ace6f"
     },
     "fullSizeLinkLabel": "View full-size Rei Ai tablet study"
+  },
+  {
+    "characterId": "cloe",
+    "displayName": "Cloe",
+    "title": "Cloe · Editable tablet and chalkboard",
+    "fullSizeLinkLabel": "View full-size Cloe tablet and chalkboard study",
+    "briefCaption": "Full-body Cloe in her research studio with an editable network graph on her tablet and refined chalkboard lines.",
+    "projectId": "common-lore-index",
+    "genre": [
+      "research-studio"
+    ],
+    "genreBasis": "current-owner-source-fact",
+    "styleRevision": "house-v2",
+    "status": "technical-study",
+    "displayPath": "/gallery/assets/cloe-svg-tablet-and-board.webp",
+    "date": {
+      "registryRecorded": "2026-11-26",
+      "source": "2026-11-21",
+      "conversion": "2026-11-26"
+    },
+    "process": "svg-to-webp",
+    "authoringTool": "Theme Forge Stellar Burst",
+    "derivative": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "8a6c25dc35e8616892ce8316cea87350e96166bc789a38fcc7200534c9aa5aa7"
+    },
+    "trace": {
+      "referencePath": "/gallery/assets/cloe-research-studio.webp",
+      "referenceSha256": "fbd4ff85614e9eeaa145fbc954929b0bc14f1b6c8c4efbf22a4c1991f317f78c",
+      "svgBytes": 8156916,
+      "svgSha256": "630e4cdfbb40f4a5ba4aaee321e5ebc4c44597a8172c7394ff21257c9f03e479"
+    },
+    "responsiveDerivative": {
+      "path": "/gallery/assets/cloe-svg-tablet-and-board-512.webp",
+      "width": 512,
+      "height": 768,
+      "quality": 96,
+      "byteLength": 179296,
+      "sha256": "025001f672f43655fe1e52ed7f11b2fcb8ef2a95b265f7d1f7bca6d358f462b7",
+      "sourceSvgSha256": "630e4cdfbb40f4a5ba4aaee321e5ebc4c44597a8172c7394ff21257c9f03e479",
+      "pngSha256": "474f71c33e9bc3b47da13719291dd85c5a9fcf6469382758d374819d2a117059",
+      "recipeSha256": "5cbe00afb047b64260cf0ac3a57c5f8d2be851c968751110c2ea55b89f14c90c"
+    }
   }
 ]
